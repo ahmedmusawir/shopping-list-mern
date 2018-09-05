@@ -1,0 +1,23 @@
+{
+  "name": "shopping-list-mern",
+  "version": "1.0.0",
+  "description": "A Shopping List App Using Mongo, Express, React & Node (MERN Stack)",
+  "main": "server.js",
+  "scripts": {
+    "start": "yarn server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": "https://github.com/ahmedmusawir/shopping-list-mern.git",
+  "author": "The Moose",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
